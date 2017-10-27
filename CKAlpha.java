@@ -36,7 +36,7 @@ public class CKAlpha extends AlphaBot
 	 */
 	public void onScannedRobot(ScannedRobotEvent e) {
 		// Replace the next line with any behavior you would like
-		turnGunRight(e.bearing);
+		turnGunRight(e.getBearing());
 		fire(1);
 	}
 
