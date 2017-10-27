@@ -1,4 +1,4 @@
-package SJ;
+//package SjTest;
 import robocode.*;
 //import java.awt.Color;
 
@@ -37,7 +37,9 @@ public class CKAlpha extends AlphaBot
 	public void onScannedRobot(ScannedRobotEvent e) {
 		// Replace the next line with any behavior you would like
 		turnGunRight(e.getBearing());
-		fire(1);
+		fire(5);
+        turnGunRight(e.getBearing() + 10);
+        fire(3);
 	}
 
 	/**
